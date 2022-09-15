@@ -10,7 +10,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     Timer(Duration(seconds: 3),() {
       Navigator.pushReplacementNamed(context,'home');
-    }
+      }
     );
 
   }
@@ -26,9 +26,9 @@ class _MyHomePageState extends State<MyHomePage> {
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                    Container(height: 350,width: 350,decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.white),child: Image.asset("assets/image/ipone.jpg")),
-                   SizedBox(height: 30,),
-                  Text("Ipone 13 pro Max",style: TextStyle(color: Colors.white,fontSize: 40,fontWeight: FontWeight.bold),),
+                    Container(height: 200,width: 200,decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.white),child: Image.asset("assets/image/ipone.jpg")),
+                    SizedBox(height: 30,),
+                    Text("Ipone 13 pro Max",style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
 
                 ]
               ),

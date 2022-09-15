@@ -1,7 +1,9 @@
+import 'package:Ads/sppleceScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:new_1/homescreen.dart';
-import 'package:new_1/sppleceScreen.dart';
+
+import 'homescreen.dart';
+
 
 void main(){
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,6 +15,6 @@ void main(){
         '/':(context)=>MyHomePage(),
         'home':(context)=>Home_Screen(),
       },
-    )
+    ),
   );
 }
