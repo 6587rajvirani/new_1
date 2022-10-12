@@ -19,8 +19,8 @@ class _Home_ScreenState extends State<Home_Screen> {
     interAds();
     rewardAds();
     interVideoAds();
-
   }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
